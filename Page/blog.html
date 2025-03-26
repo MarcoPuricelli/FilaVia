@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - FilaVia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-image">
+          <img src="img/logo.png" alt="FilaVia Logo" width="40" height="40">
+        </div>
+        <span class="logo-text">FilaVia</span>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="funzionalita.html" class="nav-link">Funzionalità</a></li>
+          <li><a href="come-funziona.html" class="nav-link">Come funziona</a></li>
+          <li><a href="chi-siamo.html" class="nav-link">Chi siamo</a></li>
+          <li><a href="blog.html" class="nav-link active">Blog</a></li>
+          <li><a href="contattaci.html" class="nav-link">Contattaci</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="FilaVia.apk" class="btn btn-primary" download>Scarica l'app</a>
+      </div>
+      <button class="mobile-menu-toggle" aria-label="Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="funzionalita.html">Funzionalità</a></li>
+          <li><a href="come-funziona.html">Come funziona</a></li>
+          <li><a href="chi-siamo.html">Chi siamo</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contattaci.html">Contattaci</a></li>
+        </ul>
+        <a href="FilaVia.apk" class="btn btn-primary mobile-cta" download>Scarica l'app</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="animate-text">Blog</h1>
+          <p class="animate-fade-in" data-delay="0.2">Novità, consigli e approfondimenti sul mondo di FilaVia</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts">
+      <div class="container">
+        <div class="blog-grid">
+          <article class="blog-card animate-feature" data-delay="0.1">
+            <div class="blog-image">
+              <img src="img/risparmiareTempo.png" alt="Come risparmiare tempo nella vita quotidiana" width="500" height="300">
+            </div>
+            <div class="blog-content">
+              <div class="blog-date">26 Marzo 2025</div>
+              <h3>Come risparmiare tempo nella vita quotidiana</h3>
+              <p>Scopri i nostri consigli per ottimizzare la tua routine quotidiana e guadagnare ore preziose ogni settimana.</p>
+              <a href="#" class="blog-link">
+                Leggi di più
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+          <article class="blog-card animate-feature" data-delay="0.2">
+            <div class="blog-image">
+              <img src="img/folla.png" alt="Le città più affollate d'Italia: dove e quando evitarle" width="500" height="300">
+            </div>
+            <div class="blog-content">
+              <div class="blog-date">23 marzo 2025</div>
+              <h3>Le città più affollate d'Italia: dove e quando evitarle</h3>
+              <p>Un'analisi dettagliata delle città italiane con maggiore affluenza e i momenti migliori per visitarle.</p>
+              <a href="#" class="blog-link">
+                Leggi di più
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+          <article class="blog-card animate-feature" data-delay="0.3">
+            <div class="blog-image">
+              <img src="img/funzionalita.png" alt="Nuove funzionalità in arrivo su FilaVia" width="500" height="300">
+            </div>
+            <div class="blog-content">
+              <div class="blog-date">22 marzo 2025</div>
+              <h3>Nuove funzionalità in arrivo su FilaVia</h3>
+              <p>Scopri in anteprima le nuove funzionalità che stiamo sviluppando per rendere FilaVia ancora più utile.</p>
+              <a href="#" class="blog-link">
+                Leggi di più
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination animate-fade-in" data-delay="0.7">
+          <a href="#" class="pagination-item active">1</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-container animate-fade-in" data-delay="0.2">
+          <div class="newsletter-content">
+            <h3>Iscriviti alla nostra newsletter</h3>
+            <p>Ricevi i nostri articoli direttamente nella tua casella di posta</p>
+            <form class="newsletter-form" id="blog-newsletter-form">
+              <div class="form-group">
+                <input type="email" placeholder="La tua email" required>
+                <button type="submit" class="btn btn-primary">Iscriviti</button>
+              </div>
+              <p class="form-note">Non invieremo spam. Leggi la nostra <a href="#">Privacy Policy</a></p>
+            </form>
+            <div class="success-message" id="blog-newsletter-success">
+              <p>Grazie per l'iscrizione! Ti invieremo presto i nostri aggiornamenti.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="FilaVia Logo" width="40" height="40">
+            <span>FilaVia</span>
+          </a>
+          <p>L'app che ti aiuta a evitare le code e risparmiare tempo nella tua vita quotidiana.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Link rapidi</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="funzionalita.html">Funzionalità</a></li>
+            <li><a href="come-funziona.html">Come funziona</a></li>
+            <li><a href="chi-siamo.html">Chi siamo</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contattaci.html">Contattaci</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Legale</h3>
+          <ul>
+            <li><a href="#">Termini e condizioni</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Cookie policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Contatti</h3>
+          <ul>
+            <li>Via dell'Innovazione, 42<br>20100 Milano, Italia</li>
+            <li><a href="mailto:info@filavia.it">info@filavia.it</a></li>
+            <li><a href="tel:+390212345678">+39 02 1234567</a></li>
+          </ul>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+              </svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2023</span> FilaVia. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
